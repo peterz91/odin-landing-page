@@ -1,0 +1,231 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: "Roboto", sans-serif;
+}
+
+.header{
+    /* outline: 1px solid red; */
+    padding: 1.5rem 24rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1F2937;
+          
+}
+
+.links-container{
+    display:flex;
+}
+
+.header > p{
+    font-size: 24px;
+    font-weight: 700;
+    color: #f9faf8;
+}
+
+.section-main{    
+    /* outline: 1px solid red; */
+    height:12rem;    
+    background-color: #1F2937;
+    padding:8rem 24rem;   
+    display:flex;
+    gap: 4rem;   
+}
+
+.main-container{
+    /* outline: 1px solid pink; */
+    flex:1;
+    height:14rem;
+    width:32rem;    
+    flex-direction: column;
+    justify-content: space-between;      
+}
+
+.image-placeholder{
+    height:14rem;
+    display:flex;
+    flex:1.5;    
+    color:rgb(236, 236, 236);
+    background-color: #6D747D;
+    justify-content: center;
+    align-items: center;    
+}
+
+.main-container>h1{   
+    font-size: 48px;    
+    font-weight:900;
+    margin-bottom: 0.5rem;
+}
+.main-container>p{
+    font-size:18px;
+    color:#f9faf8;
+    margin-bottom: 1rem;    
+}
+
+.main-container>p,h1{   
+    color:#f9faf8;    
+}
+
+.section-info{
+    /* outline: 1px solid red; */
+    padding-top: 6rem;
+    height: 28rem;
+}
+
+.info-containers{
+    display:flex;
+    justify-content: center;
+    flex-flow: wrap;
+    gap:6rem;
+    margin-top: 2rem;
+    color:#1F2937;
+}
+
+.info-container{
+    width:150px;
+    font-size: 18px;
+    text-align: center;    
+}
+
+.info-container>p{
+    color:#1F2937;
+}
+
+.section-info>h2{
+    font-size: 36px;
+    font-weight: 900;
+    color:#1F2937;
+    text-align: center;
+}
+
+.box-image{
+    width: 150px;
+    height: 150px;
+    border:2px solid #3882f6;    
+    border-radius: 16px;
+    margin-bottom: 1rem;    
+}
+
+.section-quote{
+    background-color: #e5e7eb;
+    padding: 6rem 36rem;
+}
+
+.section-quote>h2{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    color:#1F2937;
+}
+
+.section-quote>p{
+    font-size: 18px;
+    font-weight: 700;
+    color:#1F2937;
+    text-align: end;
+}
+
+.section-cta{
+    display:flex;
+    padding:6rem 32rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-container{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882f6;
+    border-radius: 16px;
+    flex:1;
+    padding:3rem 6rem;
+}
+
+.cta-bold{
+    color: #f9faf8;
+    font-weight: 900;
+}
+.cta-text, p{
+    color: #f9faf8;
+}
+
+.footer{
+    padding:1.5rem;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color:#f9faf8
+}
+.main-container>button{
+    flex-grow: 0;
+    border: none;
+    border-radius: 8px;
+    color:#f9faf8;
+    font-weight: 600;
+    background-color: #3882f6;
+    padding:1rem 2rem;
+    cursor: pointer;
+    text-align: center;
+    transition: background 250ms ease-in-out, transform 150ms ease;
+}
+
+.main-container>button:hover,
+.main-container>button:focus {
+    background: #0053ba;
+}
+
+.main-container>button:focus {
+    outline: 1px solid #fff;
+    outline-offset: -4px;
+}
+
+.main-container>button:active {
+    transform: scale(0.99);
+}
+
+.cta-container>button{
+    flex-grow: 0;
+    border: solid 1px;
+    border-radius: 8px;
+    color:#f9faf8;
+    font-weight: 600;
+    background-color: #3882f6;
+    padding:1rem 2rem;
+    cursor: pointer;
+    text-align: center;
+    transition: background 250ms ease-in-out, transform 150ms ease;
+}
+
+.cta-container>button:hover,
+.cta-container>button:focus {
+    background:#f9faf8;
+    color:#3882f6;
+}
+
+.cta-container>button:focus {
+    outline: 1px solid #3882f6;
+    outline-offset: -4px;
+}
+
+.cta-container>button:active {
+    transform: scale(0.99);
+} 
+
+
+a {
+    /* this removes the line under our links */
+    text-decoration: none;
+    color: #f9faf8;
+    font-size: 18px;    
+}
+  
+ul {
+    list-style-type: none;
+    display: flex;
+    gap:2rem;    
+}
+
+  
