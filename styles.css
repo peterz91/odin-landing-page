@@ -6,7 +6,7 @@
 
 .header{
     /* outline: 1px solid red; */
-    padding: 1.5rem 24rem;
+    padding: 1.5rem 16rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -25,25 +25,26 @@
 }
 
 .section-main{    
-    /* outline: 1px solid red; */
+    /* outline: 1px solid red; */ 
     height:12rem;    
     background-color: #1F2937;
-    padding:8rem 24rem;   
+    padding:8rem 16rem;   
     display:flex;
-    gap: 4rem;   
+    gap: 4rem; 
+    align-items: center;  
 }
 
 .main-container{
-    /* outline: 1px solid pink; */
+    outline: 1px solid pink; 
     flex:1;
-    height:14rem;
+    height:auto;
     width:32rem;    
     flex-direction: column;
     justify-content: space-between;      
 }
 
 .image-placeholder{
-    height:14rem;
+    height: 15.5rem;
     display:flex;
     flex:1.5;    
     color:rgb(236, 236, 236);
@@ -109,7 +110,7 @@
 
 .section-quote{
     background-color: #e5e7eb;
-    padding: 6rem 36rem;
+    padding: 6rem 24rem;
 }
 
 .section-quote>h2{
@@ -128,7 +129,7 @@
 
 .section-cta{
     display:flex;
-    padding:6rem 32rem;
+    padding:6rem 24rem;
     justify-content: center;
     align-items: center;
 }
